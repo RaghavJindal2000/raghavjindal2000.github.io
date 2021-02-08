@@ -7,7 +7,6 @@
     function frame() {
         if (loading==100) {
             clearInterval(id)
-            preload.style.animation ="fadeout";
             window.open("Main.html","_self")
         } else {
             loading = loading+1;
